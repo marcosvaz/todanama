@@ -1,0 +1,111 @@
+/* BARRA DE BUSCA */
+.search div.container-fluid {
+    border-bottom: 1px solid #888;
+    margin: 10px 0;
+}
+.search div input {
+    width: 95%;
+    height: 100%;
+}
+
+/* MENU */
+.a-menu, .icons {
+    display: inline-block;
+    margin-top: 15px;
+}
+.fa-shopping-cart {
+    margin-right: 20px;
+}
+.icons {
+    padding-right: 25px;
+}
+.icons .qntItens {
+    background-color: var(--amarelo);
+    border-radius: 100%;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 5px 6px;
+    position: absolute;
+    right: 110px;
+    top: -15px;
+}
+.logo {
+    padding: 0 40px 0 0;
+}
+.menu {
+    border-bottom: 1px solid #EEE;
+    padding: 20px 0;
+}
+.menu a {
+    margin: 0 15px;
+}
+.menu span {
+    font-size: 15px;
+}
+
+/* MOBILE */
+.menu-hidden {
+    position: absolute;
+    right: 15px;
+    top: 118px;
+    z-index: 1;
+}
+.menu-hidden ul a {
+    background-color: #FFF;
+    border-bottom: 0.1px solid #CCC;
+    border-left: 0.1px solid #CCC;
+    display: block;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.menu-hidden ul {
+    list-style: none;
+}
+.a-hamburger {
+    display: none;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.esconder {
+    display: none;
+}
+@media(max-width: 1200px) {
+    .a-hamburger {
+        display: inline-block;
+    }
+    .a-menu, .icons {
+        display: none;
+    }
+    .logo {
+        display: inline-block;
+        width: 200px;
+    }
+    .menu span {
+        font-size: 30px;
+    }
+}
+
+.menu-mobile a {
+    margin: 0;
+}
+.menu-mobile span {
+    font-size: 30px;
+}
+.menu-mobile img {
+    width: 200px;
+}
+.menu-mobile .fa:hover {
+    cursor: pointer;
+}
+.menu-mobile .fa-navicon {
+    margin-top: 10px;
+}
+.menu-mobile .fa-shopping-cart {
+    padding-left: 10px;
+}
+.menu-mobile .fa-search, .menu-mobile .fa-shopping-cart {
+    margin-top: 4px;
+}

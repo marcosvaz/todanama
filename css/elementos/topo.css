@@ -1,0 +1,28 @@
+/* TOPO */
+.topo {
+    background: #131b2e;
+    color: #fff;
+    padding: 10px 0;
+}
+.topo .align-right {
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+/* IDIOMAS E MOEDAS */
+.topo .menu-idioma ul, .topo .menu-moeda ul {
+    background-color: var(--amarelo);
+    left: 0;
+    padding: 15px;
+    position: absolute;
+    top: 26px;
+    width: 80px;
+    z-index: 1;
+}
+.topo .menu-idioma ul li, .topo .menu-moeda ul li {
+    list-style: none;
+}
+.topo .menu-idioma ul li a:hover, .topo .menu-moeda ul li a:hover {
+    color: #131b2e;
+}

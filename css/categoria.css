@@ -1,0 +1,70 @@
+/* IMPORTS */
+@import url("template.css");
+
+.title {
+    margin-left: -15px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* BANNER */
+.banner img {
+    width: 100%;
+    margin: 0;
+} 
+
+/* CATEGORIAS - LATERAL */
+.categorias {
+    margin-top: 30px;
+}
+.categorias a:hover {
+    text-decoration: underline;
+}
+.fa-plus, .fa-minus {
+    cursor: pointer;
+}
+
+/* TOPO FILTRAR */
+.pagination {
+    cursor: pointer;
+}
+select {
+    display: inline;
+}
+.item {
+    display: block;
+}
+
+/* PRODUTOS */
+.resultados {
+    text-decoration: underline;
+}
+/* IMAGENS DE PRODUTOS */
+.produto figure {
+    height: auto;
+    margin-top: 10px;
+    max-width: 270px;
+    max-height: 370px;
+    width: auto;
+}
+.produto h2 {
+    display: block;
+}
+.produto figure img {
+    max-width: 100%;
+}
+.descricao h2, h3, h4 {
+    display: block;
+}
+.descricao h3, h4, small {
+    color: #666;
+}
+.descricao small {
+    font-size: 12px;
+}
+
+@media(max-width: 768px) {
+    .resultados {
+        display: none;
+    }
+}

@@ -1,0 +1,7 @@
+/* BREADCRUMBS */
+.breadcrumbs {
+    margin: 20px 0 50px 0;
+}
+.breadcrumbs div .active {
+    color: var(--amarelo);
+}

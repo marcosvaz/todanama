@@ -1,0 +1,93 @@
+/* IMPORTS */
+@import url("template.css");
+
+/* SLIDESHOW */
+ .slideshow img {
+    width: 100%;
+    margin: 0;
+} 
+
+/* IMAGENS DE PRODUTOS */
+.produto figure {
+    height: auto;
+    margin-top: 10px;
+    max-width: 270px;
+    max-height: 370px;
+    width: auto;
+}
+.produto h2 {
+    display: block;
+}
+.produto figure img {
+    max-width: 100%;
+}
+.descricao h2, h3, h4 {
+    display: block;
+}
+.descricao h3, h4, small {
+    color: #666;
+}
+.descricao small {
+    font-size: 12px;
+}
+
+/* DESTAQUE  */
+.title:first-child {
+    margin-top: 15px;
+}
+.destaque .title {
+    color: var(--amarelo);
+    text-transform: uppercase;
+}
+.destaque .layer {
+    padding: 0;
+}
+@media(min-width: 768px){
+    .destaque .layer {
+        padding: 25px 0;
+    }
+}
+
+/* LEMBRANCINHAS */
+.lembrancinhas .title {
+    text-transform: uppercase;
+}
+.lembrancinhas .layer {
+    padding: 0;
+}
+@media(min-width: 768px){
+    .lembrancinhas .layer {
+        padding: 25px 0;
+    }
+}
+
+/* PROPAGANDA */
+.banner {
+    background: #000;
+    height: 160px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+/* PORTAL */
+.portal .title {
+    text-transform: uppercase;
+}
+.portal .layer {
+    padding: 0;
+}
+.noticia figure {
+    height: auto;
+    margin-top: 20px;
+    max-width: 370px;
+    max-height: 230px;
+    width: auto;
+}
+.noticia figure img {
+    max-width: 100%;
+}
+@media(min-width: 768px){
+    .portal .layer {
+        padding: 25px 0;
+    }
+}

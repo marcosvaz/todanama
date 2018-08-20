@@ -1,0 +1,30 @@
+/* IMPORTS */
+@import url("template.css");
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    width: 100%;
+}
+textarea {
+    padding: 10px;
+    resize: none;
+}
+input[type="submit"] {
+    background-color: var(--amarelo);
+    color: var(--azul);
+    float: right;
+    margin-top: 0;
+    padding: 10px 25px;
+}
+figcaption {
+    display: inline-block;
+    padding: 0 50px;
+    position: relative;
+    top: 25px;
+}
+@media(max-width: 1200px) {
+    figcaption {
+        padding: 0 20px;
+        position: relative;
+        top: 30px;
+    }
+}

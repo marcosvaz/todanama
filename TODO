@@ -1,0 +1,5 @@
+// TODO: VALIDAÇÃO DE ITEM PEGO DA API ViaCEP
+// Verificar quais foram os itens que não vieram nulos
+// Verificar se o JavaScript foi desabilitado e não deixar o usuário inputar os dados
+// Deixar somente os dados que não foram adquiridos, serem inputados
+

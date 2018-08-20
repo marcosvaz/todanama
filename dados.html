@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- SEO -->
+        <meta name="description" content="Portal online de cultura Brasileira." />
+        <meta name="keywords" content="todanama, toda, anama, cultura, Brasil, Brazil,
+         brasileiros, turismo, lembranças, souvenirs, presentes, lugares,
+         viagens, viagem, mundo, pechinchas, regiões, comprar, ecommerce, vendas, compras" />
+        <meta name="robots" content="index, follow">
+
+        <link rel="icon" href="images/favicon.ico">
+        <title>TODANAMA | MEUS DADOS</title>
+
+        <link rel="stylesheet" href="css/elementos/normalize.css"><!-- Normalize.css -->
+        <link rel="stylesheet" href="css/elementos/grid.css"><!-- GRID -->
+        <link rel="stylesheet" href="css/icons/font-awesome.min.css"><!-- ÍCONES -->
+        <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Montserrat"><!-- GOOGLE FONTS - MONTSERRAT -->
+        <link rel="stylesheet" href="css/elementos/animate.css"><!-- Animate.css -->
+        <link rel="stylesheet" href="css/dados.css"><!-- ESTILO DA PÁGINA -->
+    </head>
+    <body>
+        <!-- ERRO -->
+        <section class="erro esconder">
+            <div class="col-xs-12 text-center">
+                <span class="fa fa-close" id="erro-close"></span>
+                <h2>Houve um erro!</h2>
+                <br>
+                <h3><span class="alert">Tente novamente mais tarde</span></h3>
+            </div>
+        </section>
+
+        <!-- TOPO -->
+        <section class="topo">
+            <div class="container">
+                <div class="col-xs-12">
+                    <div>
+                        <a class="idioma" href="#idioma">PT-BR <span class="fa fa-angle-down"></span></a> | <a class="moeda" href="#moeda">BRL <span class="fa fa-angle-down"></span></a>
+                    </div>
+                    <div class="align-right">
+                        <a href="entrar.html">LOGAR OU REGISTRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-idioma esconder">
+                <ul>
+                    <li><a href="">PT-BR</a></li>
+                    <li><a href="">EN-US</a></li>
+                    <li><a href="">ES-AR</a></li>
+                </ul>
+            </div>
+            <div class="menu-moeda esconder">
+                <ul>
+                    <li><a href="">BRL</a></li>
+                    <li><a href="">DLR</a></li>
+                    <li><a href="">EUR</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- BARRA DE BUSCA -->
+        <section class="search esconder">
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <form>
+                        <input name="pesquisa" placeholder="O que deseja buscar?" type="search">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section class="menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-10 col-lg-3">
+                        <a href="index.html">
+                            <img alt="Todanama" class="logo" src="images/logo.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 a-menu">
+                        <a href="index.html">HOME</a>
+                        <a href="categoria.html">CATEGORIAS</a>
+                        <a href="entrar.html">ENTRAR</a>
+                        <a href="dados.html">MEUS DADOS</a>
+                        <a href="contato.html">CONTATO</a>
+                        
+                    </div>
+                    <div class="col-sm-3 icons text-right">
+                        <a href="#busca" class="menu-search"><span class="fa fa-search"></span></a> | <a href="carrinho.html"><span class="fa fa-shopping-cart"></span> R$329,60</a><span class="qntItens">2</span>
+                    </div>
+
+                    <div class="col-xs-2 menu-mobile">
+                        <div class="a-hamburger">
+                            <a href="#menu"><span class="fa fa-navicon"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-hidden esconder">
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="categoria.html"><li>CATEGORIAS</li></a>
+                    <a href="entrar.html"><li>ENTRAR</li></a>
+                    <a href="dados.html"><li>MEUS DADOS</li></a>
+                    <a href="carrinho.html"><li>CARRINHO</li></a>
+                    <a href="contato.html"><li>CONTATO</li></a>
+                </ul>
+            </div>
+        </section>
+
+        <!-- BREADCRUMBS -->
+        <section>
+            <div class="container">
+                <div class="breadcrumbs">
+                    <div>
+                        <a href="index.html">HOME</a>
+                        /
+                        <a class="active" href="#" title="Você está aqui">Meus dados</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEUS DADOS -->
+        <section class="dados">
+            <div class="container">
+                <!-- TABS PERFIL -->
+                <div class="col-sm-3">
+                    <div class="title ola">
+                        <div class="col-sm-12">
+                            <h3>OI, SUMIDO</h3>
+                        </div>
+                        <div class="col-sm-12">
+                            <img src="images/titulo-layer.png" class="layer">
+                        </div>
+                    </div>
+                    <div class="tabs">
+                        <ul>
+                            <li><a class="menu-informacoesPessoais ativo" href=""><h3>Informações pessoais</h3></a></li>
+                            <li><a class="menu-meusPedidos" href=""><h3>Meus pedidos</h3></a></li>
+                            <li><a class="menu-alterarSenha" href=""><h3>Alterar minha senha</h3></a></li>
+                            <li><a class="menu-enderecosEntrega" href=""><h3>Endereços de entrega</h3></a></li>
+                        </ul>
+                    </div>
+                    <!-- TABS MOBILE -->
+                    <div class="tabs-mobile esconder">
+                        <h3>OI, SUMIDO</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-xs-3 menu-informacoesPessoais ativo">Informação Pessoal</div>
+                            <div class="col-xs-3 menu-meusPedidos">Meus Pedidos</div>
+                            <div class="col-xs-3 menu-alterarSenha">Alterar Senha</div>
+                            <div class="col-xs-3 menu-enderecosEntrega">Endereços/ Entrega</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INFORMAÇÕES PESSOAIS -->
+                <div class="col-sm-9 informacoesPessoais">
+                    <div class="title">
+                        <div class="col-sm-12">
+                            <h3>INFORMAÇÕES PESSOAIS</h3>
+                            <div class="obrigatorio"><small>* Campos obrigatórios.</small></div>
+                        </div>
+                        <div class="col-sm-12">
+                            <img src="images/titulo-layer.png" class="layer">
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>PRIMEIRO NOME *</label>
+                                    <input placeholder="Informe seu nome" required type="text">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>ÚLTIMO NOME *</label>
+                                    <input placeholder="Informe seu último nome" required type="text">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>EMAIL *</label>
+                                    <br>
+                                    <h4>Contato atual:</h4><span style="text-decoration: underline; margin-left: 5px;">contato@email.com.br</a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>ALTERAR EMAIL <span class="obrigatorio"><small>Precisa de confirmação</small></span></label>
+                                    <input placeholder="Informar novo email" type="email">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>TELEFONE FIXO (OPCIONAL)</label>
+                                    <input data-mask="(00) 0000-0000" placeholder="Informe seu telefone" type="tel">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>SEU CELULAR *</label>
+                                    <input data-mask="(00) #0000-0000" placeholder="Informe seu celular" required type="tel">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>SEXO *</label>
+                                    <br>
+                                    <input checked name="sexo" type="radio" value="feminino"> Feminino
+                                    <input name="sexo" type="radio" value="masculino"> Masculino
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>CPF *</label>
+                                    <input data-mask="000.000.000-00" placeholder="226.704.600-89" required type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>DATA DE NASCIMENTO *</label>
+                                    <input required type="date">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 espaco"></div>
+                            </div>
+
+                            <div class="row">
+                                <br>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input id="emailsPromo" type="checkbox"><label class="check" for="emailsPromo">Desejo receber e-mails promocionais do Todanama</label>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="submit" value="SALVAR ALTERAÇÕES">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <!-- MEUS PEDIDOS -->
+                <div class="col-sm-9 meusPedidos esconder">
+                    <div class="title">
+                        <div class="col-sm-12">
+                            <h3>MEUS PEDIDOS</h3>
+                        </div>
+                        <div class="col-sm-12">
+                            <img src="images/titulo-layer.png" class="layer">
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>Filtrar status do pedido:</label>
+                                    <select>
+                                        <option>Todos os pedidos</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="col-xs-4 col-md-2">
+                                        <span>Nº PEDIDO</span>
+                                    </div>
+                                    <div class="col-xs-4 col-md-2">
+                                        <span>DATA</span>
+                                    </div>
+                                    <div class="col-md-3 responsivo">
+                                        <span>PAGAMENTO</span>
+                                    </div>
+                                    <div class="col-md-2 responsivo">
+                                        <span>POSIÇÃO</span>
+                                    </div>
+                                    <div class="col-xs-4 col-md-3">
+                                        <span>NF-E</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row dadosUsuario">
+                                <div class="col-xs-12 topo-dadosUsuario">
+                                    <div class="col-xs-4 col-md-2">
+                                        <a href=""><b>#6648135</b></a>
+                                    </div>
+                                    <div class="col-xs-4 col-md-2">
+                                        <b>18/03/2017</b>
+                                    </div>
+                                    <div class="col-md-3 responsivo">
+                                        <b>CRÉDITO</b>
+                                    </div>
+                                    <div class="col-md-2 responsivo">
+                                        <b>ENVIADO</b>
+                                    </div>
+                                    <div class="col-xs-4 col-md-3">
+                                        <a href=""><b>BAIXAR PDF</b></a>
+                                    </div>
+                                </div>
+                                <div class="baixo-dadosUsuario">
+                                    <span>Status do Pedido: Pedido em transporte</span>
+                                </div>
+                            </div>
+                            <div class="row dadosUsuario">
+                                <div class="col-xs-12 topo-dadosUsuario">
+                                    <div class="col-xs-4 col-md-2">
+                                        <a href=""><b>#5095419</b></a>
+                                    </div> 
+                                    <div class="col-xs-4 col-md-2">
+                                        <b>31/03/2017</b>
+                                    </div>
+                                    <div class="col-md-3 responsivo">
+                                        <b>BOLETO</b>
+                                    </div>
+                                    <div class="col-md-2 responsivo">
+                                        <b>PENDENTE</b>
+                                    </div>
+                                    <div class="col-xs-4 col-md-3">
+                                        <a href=""><b>BAIXAR PDF</b></a>
+                                    </div>
+                                </div>
+                                <div class="baixo-dadosUsuario">
+                                    <span>Status do Pedido: Aguardando pagamento do pedido para darmos andamento no envio</span>
+                                </div>
+                            </div>
+                            <div class="row dadosUsuario">
+                                <div class="col-xs-12 topo-dadosUsuario">
+                                    <div class="col-xs-4 col-md-2">
+                                        <a href=""><b>#4335420</b></a>
+                                    </div>
+                                    <div class="col-xs-4 col-md-2">
+                                        <b>10/07/2017</b>
+                                    </div>
+                                    <div class="col-md-3 responsivo">
+                                        <b>CRÉDITO</b>
+                                    </div>
+                                    <div class="col-md-2 responsivo">
+                                        <b>ENVIADO</b>
+                                    </div>
+                                    <div class="col-xs-4 col-md-3">
+                                        <a href=""><b>BAIXAR PDF</b></a>
+                                    </div>
+                                </div>
+                                <div class="baixo-dadosUsuario">
+                                    <span>Status do Pedido: Pedido em transporte</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="pagination ativo">01</div>
+                                    <div class="pagination trocar"><span class="fa fa-chevron-right"></span></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- ALTERAR SENHA -->
+                <div class="col-sm-9 alterarSenha esconder">
+                    <div class="title">
+                        <div class="col-sm-12">
+                            <h3>ALTERAR SENHA</h3>
+                            <div class="obrigatorio"><small>* Campos obrigatórios.</small></div>
+                        </div>
+                        <div class="col-sm-12">
+                            <img src="images/titulo-layer.png" class="layer">
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>Senha antiga *</label>
+                                    <input placeholder="Informe sua senha" required type="password">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 espaco"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>Nova senha *</label>
+                                    <input placeholder="Informe nova senha" required type="password">
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <label>Confirmar nova senha *</label>
+                                    <input placeholder="Confirmar nova senha" required type="password">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 espaco"></div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <input type="submit" value="SALVAR ALTERAÇÕES">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- ENDEREÇOS DE ENTREGA -->
+                <div class="col-sm-9 enderecosEntrega esconder">
+                    <div class="title">
+                        <div class="col-sm-12">
+                            <h3>ENDEREÇOS DE ENTREGA</h3>
+                            <div class="obrigatorio"><small>* Campos obrigatórios.</small></div>
+                        </div>
+                        <div class="col-sm-12">
+                            <img src="images/titulo-layer.png" class="layer">
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <label>PAÍS *</label>
+                                    <select>
+                                        <option>BRASIL (BR)</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <label>INFORMAR CEP *</label>
+                                    <input placeholder="01541-030" type="text" data-mask="00000-000">
+                                </div>
+                                <div class="col-xs-12 col-md-4">
+                                    <label>IDENTIFICAR ENDEREÇO</label>
+                                    <input placeholder="Comercial" type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <label>ENDEREÇO PRINCIPAL</label>
+                                    <input disabled placeholder="Rua Silveira Campos" type="text">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <label>NÚMERO *</label>
+                                    <input placeholder="Nº 2324" type="text" data-mask="0#">
+                                </div>
+                                <div class="col-xs-12 col-md-4">
+                                    <label>COMPLEMENTO</label>
+                                    <input placeholder="Ap. 203 - Bloco 04" type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <label>BAIRRO</label>
+                                    <input disabled placeholder="Jardim Paulista" type="text">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <label>CIDADE</label>
+                                    <input disabled placeholder="São José do Vale do Rio Preto" type="text">
+                                </div>
+                                <div class="col-xs-12 col-md-4">
+                                    <label>ESTADO</label>
+                                    <input disabled placeholder="Rio Grande do Norte (RN)" type="text">
+                                </div>
+                            </div>
+
+                            <!-- CASA DE FULANO -->
+                            <div class="row dadosUsuario">
+                                <div class="col-xs-12 topo-dadosUsuario">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <b>CASA DO FULANO</b>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 text-right">
+                                        <a class="responsivo" href="">Tornar principal</a><a class="responsivo" href="">Editar</a><a class="responsivo" href="">Remover</a>
+                                    </div>
+                                </div>
+                                <div class="baixo-dadosUsuario">
+                                    Rua Silveira Campos, nº2324, Ap. 203 - Bloco 04, Jardim Paulista, São José do Vale do Rio Preto - RN
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <br>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <input id="enderecoPrincipal" type="checkbox"> <label class="check" for="enderecoPrincipal">Utilizar endereço principal para cobrança</label>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <input class="addEndereco" type="submit" value="+ ADICIONAR ENDEREÇO">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <input type="submit" value="SALVAR ALTERAÇÕES">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <section class="footer">
+            <div class="container">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Sobre nós</h3>
+                    <div>
+                        <img class="logo" src="images/logo-footer.png">
+                    </div>
+                    <br>
+                    <span class="fa fa-map-marker"></span>
+                    Av. Lins de Vasconcelos, 1222 <br> Aclimação - São Paulo/SP
+                    <br><br>
+                    <span class="fa fa-phone"></span>
+                    (+55) 11 99999-9999
+                    <br><br>
+                    <span class="fa fa-envelope-o"></span>
+                    contato@todanama.com
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <a href="#"><li>Tipos de entrega</li></a>
+                        <a href="#"><li>Negócios corporativos</li></a>
+                        <a href="#"><li>Seguro roubo e furto</li></a>
+                        <a href="#"><li>Serviços de Entrega - Direct</li></a>
+                        <a href="#"><li>Garantia Estendida</li></a>
+                        <a href="#"><li>Vale Presente</li></a>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Newsletter</h3>
+                    <form>
+                        <label for="email">Digite seu e-mail e nós lhe enviaremos mais ofertas e conteúdos exclusivos.</label>
+                        <input class="newsletter" name="emailNewsletter" placeholder="E-mail" required type="email">
+                        <input type="submit" value="Inscreva-se">
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Formas de pagamentos</h3>
+                    <img class="pagamentos" src="images/pagamentos.png">
+                </div>
+            </div>
+        </section>
+
+        <!-- RODAPÉ -->
+        <section class="rodape text-center">
+            <div class="container">
+                <h4>&copy; COPYRIGHT | TODANAMA | TODOS OS DIREITOS RESERVADOS</h4>
+            </div>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.js"></script>
+        <script src="js/base.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

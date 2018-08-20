@@ -1,0 +1,180 @@
+/* IMPORTS */
+@import url("template.css");
+
+/* TABS DA LATERAL */
+.tabs ul {
+    list-style: none;
+    padding: 0;
+}
+.tabs ul li {
+    margin-top: 0px;
+    padding: 15px 0;
+}
+.tabs ul li .ativo {
+    color: var(--amarelo);
+    text-decoration: underline;
+}
+.tabs ul li a {
+    display: inline-block;
+}
+.tabs ul li a:hover {
+    text-decoration: underline;
+}
+@media(max-width: 768px){
+    .dados .ola {
+        display: none;
+    }
+    .tabs {
+        display: none;
+    }
+    .tabs ul li:first-child {
+        margin-top: 0;
+    }
+}
+
+/* TÍTULOS */
+.title {
+    display: inline-block;
+    margin-left: -15px;
+}
+.title h3 {
+    display: inline-block;
+}
+
+/* ITENS OBRIGATÓRIOS */
+.obrigatorio {
+    color: var(--vermelho);
+    display: inline-block;
+    padding: 0 5px;
+}
+.formulario {
+    margin-top: 10px;
+}
+
+/* FORMULÁRIOS */
+.dados input {
+    margin-top: 10px;
+}
+input[type="password"] {
+    width: 100%;
+}
+input[type="submit"]{
+    background-color: var(--amarelo);
+    color: var(--azul);
+    margin-top: 0;
+    padding: 10px 25px;
+}
+.dados .addEndereco {
+    padding: 10px 13px;
+}
+.espaco {
+    height: 85px;
+}
+@media(max-width: 768px){
+    .espaco {
+        display: none;
+    }
+    input[type="password"]{
+        width: auto;
+    }
+}
+
+input[type="checkbox"], input[type="radio"], h4{
+    display: inline-block;
+}
+
+select {
+    margin: 10px 0;
+    padding: 10px;
+    display: block;
+}
+
+.informacoesPessoais input[type="text"],
+.informacoesPessoais input[type="email"],
+.informacoesPessoais input[type="tel"],
+.informacoesPessoais input[type="date"],
+.alterarSenha input[type="password"],
+.enderecosEntrega input[type="text"],
+.enderecosEntrega select {
+    width: 100%;
+}
+
+.check {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+@media(max-width: 768px){
+    .tabs-mobile {
+        display: initial;
+    }
+    .tabs-mobile div {
+        background-color: var(--azul);
+        border-radius: 5px;
+        color: var(--amarelo);
+        font-weight: bolder;
+    }
+    .tabs-mobile div.col-xs-3 {
+        cursor: pointer;
+    }
+    .tabs-mobile .ativo {
+        background-color: var(--amarelo);
+        border-radius: 0;
+        color: var(--azul);
+    }
+    .tabs-mobile .row {
+        padding: 10px;
+    }
+}
+
+/* DADOS USUÁRIO */
+.dadosUsuario {
+    margin-bottom: 10px;
+}
+.dadosUsuario, .dadosUsuario .topo-dadosUsuario, .dadosUsuario .baixo-dadosUsuario {
+    width: 100%;
+}
+.dadosUsuario .topo-dadosUsuario {
+    background-color: var(--amarelo);
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+.dadosUsuario .topo-dadosUsuario a {
+    padding: 10px;
+    text-decoration: underline;
+}
+.dadosUsuario .topo-dadosUsuario a:hover {
+    color: #000;
+}
+.dadosUsuario .baixo-dadosUsuario {
+    width: 100%;
+    margin: 0 15px;
+    border: 1px solid #888;
+    padding: 40px 10px 10px 10px;
+}
+
+/* PAGINAÇÃO */
+.pagination {
+    display: inline;
+    padding: 5px 8px;
+}
+.meusPedidos .ativo {
+    background-color: var(--azul);
+    color: #FFF;
+}
+.meusPedidos .trocar {
+    background-color: var(--amarelo);
+    color: #FFF;
+    cursor: pointer;
+}
+
+.responsivo {
+    display: none;
+}
+
+@media(min-width: 992px){
+    .responsivo {
+        display: initial;
+    }
+}

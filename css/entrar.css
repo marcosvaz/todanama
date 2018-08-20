@@ -1,0 +1,53 @@
+/* IMPORTS */
+@import url("template.css");
+
+/* ESQUECI A SENHA */
+#esqueciASenha input[type="submit"]{
+    background-color: var(--amarelo);
+    color: #FFF;
+    float: right;
+    margin-top: 0;
+    padding: 10px 25px;
+}
+@media(max-width: 1200px){
+    #esqueciASenha input {
+        width: 100%;
+    }
+}
+
+/* ELEMENTOS */
+.login h2, .cadastro h2 {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+small {
+    display: block;
+    margin-bottom: 20px;
+}
+label, input {
+    display: block;
+}
+label {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+input[type="email"], input[type="password"]{
+    width: 320px;
+}
+.login input[type="submit"]{
+    background-color: var(--amarelo);
+    color: #FFF;
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 30px;
+}
+.login a {
+    text-decoration: underline;
+}
+
+.cadastro input[type="submit"]{
+    background-color: var(--amarelo);
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+}

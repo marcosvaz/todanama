@@ -1,0 +1,49 @@
+/* IMPORTS */
+@import url("template.css");
+
+.produto figure img {
+    height: auto;
+    max-height: 100vh;
+    width: 100%;
+}
+.sobreProduto {
+    padding-left: 30px;
+ }
+.sobreProduto p {
+    color: #888;
+}
+.sobreProduto .preco {
+    display: inline-block;
+}
+input[type="submit"]{
+    background-color: var(--amarelo);
+    color: var(--azul);
+}
+label {
+    display: block;
+    margin: 10px 0;
+}
+.title {
+    margin-left: -15px;
+}
+.title .layer {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="number"]{
+    width: 45px;
+}
+.secundariasProduto {
+    cursor: pointer;
+    display: inline-block;
+    width: 24%;
+}
+.ativo {
+    border: 1px solid var(--amarelo);
+}
+.secundariasProduto:hover {
+    border: 1px solid var(--amarelo);
+}
+.recomendados {
+    margin-top: 20px;
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- SEO -->
+        <meta name="description" content="Portal online de cultura Brasileira." />
+        <meta name="keywords" content="todanama, toda, anama, cultura, Brasil, Brazil,
+         brasileiros, turismo, lembranças, souvenirs, presentes, lugares,
+         viagens, viagem, mundo, pechinchas, regiões, comprar, ecommerce, vendas, compras" />
+        <meta name="robots" content="index, follow">
+
+        <link rel="icon" href="images/favicon.ico">
+        <title>TODANAMA | CARRINHO</title>
+
+        <link rel="stylesheet" href="css/elementos/normalize.css"><!-- Normalize.css -->
+        <link rel="stylesheet" href="css/elementos/grid.css"><!-- GRID -->
+        <link rel="stylesheet" href="css/icons/font-awesome.min.css"><!-- ÍCONES -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"><!-- GOOGLE FONTS - MONTSERRAT -->
+        <link rel="stylesheet" href="css/elementos/animate.css"><!-- Animate.css -->
+        <link rel="stylesheet" href="css/carrinho.css"><!-- ESTILO DA PÁGINA -->
+    </head>
+    <body>
+        <!-- ERRO -->
+        <section class="erro esconder">
+            <div class="col-xs-12 text-center">
+                <span class="fa fa-close" id="erro-close"></span>
+                <h2>Houve um erro!</h2>
+                <br>
+                <h3><span class="alert">Tente novamente mais tarde</span></h3>
+            </div>
+        </section>
+        
+        <!-- TOPO -->
+        <section class="topo">
+            <div class="container">
+                <div class="col-xs-12">
+                    <div>
+                        <a class="idioma" href="#idioma">PT-BR <span class="fa fa-angle-down"></span></a> | <a class="moeda" href="#moeda">BRL <span class="fa fa-angle-down"></span></a>
+                    </div>
+                    <div class="align-right">
+                        <a href="entrar.html">LOGAR OU REGISTRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-idioma esconder">
+                <ul>
+                    <li><a href="">PT-BR</a></li>
+                    <li><a href="">EN-US</a></li>
+                    <li><a href="">ES-AR</a></li>
+                </ul>
+            </div>
+            <div class="menu-moeda esconder">
+                <ul>
+                    <li><a href="">BRL</a></li>
+                    <li><a href="">DLR</a></li>
+                    <li><a href="">EUR</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- BARRA DE BUSCA -->
+        <section class="search esconder">
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <form>
+                        <input name="pesquisa" placeholder="O que deseja buscar?" type="search">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section class="menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-10 col-lg-3">
+                        <a href="index.html">
+                            <img alt="Todanama" class="logo" src="images/logo.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 a-menu">
+                        <a href="index.html">HOME</a>
+                        <a href="categoria.html">CATEGORIAS</a>
+                        <a href="entrar.html">ENTRAR</a>
+                        <a href="dados.html">MEUS DADOS</a>
+                        <a href="contato.html">CONTATO</a>
+                        
+                    </div>
+                    <div class="col-sm-3 icons text-right">
+                        <a href="#busca" class="menu-search"><span class="fa fa-search"></span></a> | <a href="carrinho.html"><span class="fa fa-shopping-cart"></span> R$329,60</a><span class="qntItens">2</span>
+                    </div>
+
+                    <div class="col-xs-2 menu-mobile">
+                        <div class="a-hamburger">
+                            <a href="#menu"><span class="fa fa-navicon"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-hidden esconder">
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="categoria.html"><li>CATEGORIAS</li></a>
+                    <a href="entrar.html"><li>ENTRAR</li></a>
+                    <a href="dados.html"><li>MEUS DADOS</li></a>
+                    <a href="carrinho.html"><li>CARRINHO</li></a>
+                    <a href="contato.html"><li>CONTATO</li></a>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- BREADCRUMBS -->
+        <section>
+            <div class="container">
+                <div class="breadcrumbs">
+                    <div>
+                        <a href="index.html">HOME</a>
+                        / 
+                        <a class="active" href="#" title="Você está aqui">Carrinho de compras</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARRINHO -->
+        <section class="carrinho">
+            <div class="container">
+                <div class="title">
+                    <div class="col-sm-12">
+                        <h3>CARRINHO DE COMPRAS</h3>
+                    </div>
+                    <div class="col-sm-12">
+                        <img src="images/titulo-layer.png" class="layer">
+                    </div>
+                </div>
+                <!-- LISTAGEM DE PRODUTOS -->
+                <table class="produtos">
+                    <!-- COLUNAS -->
+                    <tr>
+                        <th>FOTO</th>
+                        <th>PRODUTO</th> 
+                        <th>DESCRIÇÃO</th>
+                        <th>PREÇO</th>
+                        <th>QUANTIDADE</th>
+                        <th>TOTAL</th>
+                        <th><!-- PARA PODER HAVER UM ESPAÇO PARA O 'DELETE' --></th>
+                    </tr>
+                    <!-- ELEMENTOS -->
+                    <tr>
+                        <td class="imagemProduto"><a href="produto.html"><img src="images/0000001.png"></a></td>
+                        <td class="nomeProduto"><a href="produto.html"><b>NOME DO PRODUTO<br>COD. 90901</b></a></td> 
+                        <td class="descricaoProduto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non, rem, enim error eligendi voluptatibus.</td>
+                        <td class="precoProduto"><b>R$69,90</b></td> 
+                        <td class="qntProduto"><input min="1" name="quantidadeProduto" required type="number" value="1"></td>
+                        <td class="totalProduto"><b>R$139,80</b></td>
+                        <td class="excluirProduto" title="Excluir item"><span class="fa fa-close"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="imagemProduto"><a href="produto.html"><img src="images/0000001.png"></a></td>
+                        <td class="nomeProduto"><a href="produto.html"><b>NOME DO PRODUTO<br>COD. 90901</b></a></td> 
+                        <td class="descricaoProduto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non, rem, enim error eligendi voluptatibus.</td>
+                        <td class="precoProduto"><b>R$69,90</b></td> 
+                        <td class="qntProduto"><input min="1" name="quantidadeProduto" required type="number" value="1"></td>
+                        <td class="totalProduto"><b>R$139,80</b></td>
+                        <td class="excluirProduto" title="Excluir item"><span class="fa fa-close"></span></td>
+                    </tr>
+                </table>
+                <!-- PRODUTOS MOBILE -->
+                <div class="produtos-mobile">
+                    <div class="col-xs-6 col-sm-4">
+                        <div class="produto">
+                            <a href="produto.html">
+                            <figure>
+                                <img src="images/0000001.png">
+                            </figure>
+                            <div class="descricao text-left">
+                                <h3>NOME DO PRODUTO<br><small>COD. 90901</small></h3>
+                                <br>
+                                <h2>R$69,90</h2> <small>ou 10x de R$6,99 no cartão</small>
+                            </a>
+                                <form>
+                                    <br>
+                                    <label>Qnt: </label><input min="1" name="quantidadeProdutos" required type="number" value="1"> <span class="fa fa-close" title="Excluir produto"></span>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                        <div class="produto">
+                            <a href="produto.html">
+                                <figure>
+                                    <img src="images/0000001.png">
+                                </figure>
+                                <div class="descricao text-left">
+                                    <h3>NOME DO PRODUTO<br><small>COD. 90901</small></h3>
+                                    <br>
+                                    <h2>R$69,90</h2> <small>ou 10x de R$6,99 no cartão</small>
+                                </a>
+                                <form>
+                                    <br>
+                                    <label>Qnt: </label><input min="1" name="quantidadeProdutos" required type="number" value="1"> <span class="fa fa-close" title="Excluir produto"></span>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- FIM DO CARRINHO -->
+            </div>
+        </section>
+
+        <!-- COMPRA -->
+        <section class="compra">
+            <div class="container">
+                <!-- CALCULAR FRETE -->
+                <div class="col-xs-12 col-sm-4">
+                    <div class="title">
+                        <div class="col-sm-12">
+                            <h3>CALCULAR FRETE</h3>
+                        </div>
+                        <div class="col-sm-12">
+                            <img src="images/titulo-layer.png" class="layer">
+                        </div>
+                    </div>
+                    <div class="frete">
+                        <form>
+                            <label for="">SELECIONE UM PAÍS</label>
+                            <input disabled name="pais" placeholder="Brasil (BR)" required type="text" value="BR">
+
+                            <label for="">DIGITE SEU CEP</label>
+                            <input class="cep" data-mask="00000-000" name="cep" pattern="[0-9]{5}-[0-9]{3}|[0-9]{8}$" placeholder="_____-___" required type="text">
+                            <a href="">Não sei meu CEP ></a>
+
+                            <div class="calculoFrete esconder">
+                                <input checked type="radio" id="frete1" name="frete"><label for="frete1">FRETE 1 <small>(5-10 dias)</small></label>
+                                <h3>R$50,00</h3>
+                                <br>
+                                <input type="radio" id="frete2" name="frete"><label for="frete2">FRETE 2 <small>(20-30 dias)</small></label>
+                                <h3>R$50,00</h3>
+                            </div>
+
+                            <input type="submit" value="ATUALIZAR CARRINHO">
+                        </form>
+                    </div>
+                </div>
+                <!-- CUPOM DE DESCONTO -->
+                <div class="col-xs-12 col-sm-4">
+                    <div class="title">
+                        <div class="col-sm-12">
+                            <h3>CUPOM DE DESCONTO</h3>
+                        </div>
+                        <div class="col-sm-12">
+                            <img src="images/titulo-layer.png" class="layer">
+                        </div>
+                    </div>
+                    <div class="cupom">
+                        <p>
+                            - A validade de cada cupom é de 30 dias.<br>
+                            - Os cupons são válidos apenas para produtos anunciados e disponibilizados<br>
+                            no site shop.todanama.com.<br>
+                            - Os cupons não são cumulativos com os demais e promoções anunciados no site.<br>
+                            - É permitida a utilização de apenas um cupom de desconto por compra.
+                        </p>
+                        <form>
+                            <label for="">CÓDIGO DO CUPOM</label>
+                            <input class="cupom" data-mask="AAAAAAAAAA" max="10" name="cupom" pattern="[A-Za-z0-9]{10}$" placeholder="98F1011927" required type="text">
+
+                            <input type="submit" value="VALIDAR CUPOM">
+                        </form>
+                    </div>
+                </div>
+                <!-- TOTAL DA COMPRA -->
+                <div class="col-xs-12 col-sm-4">
+                    <div class="title">
+                        <div class="col-sm-12">
+                            <h3>TOTAL DA COMPRA</h3>
+                        </div>
+                        <div class="col-sm-12">
+                            <img src="images/titulo-layer.png" class="layer">
+                        </div>
+                    </div>
+                    <div class="total">
+                        <div class="col-xs-6">SUBTOTAL</div><div class="col-xs-6 text-right">R$279,60</div>
+                        <div class="col-xs-6">FRETE</div><div class="col-xs-6 text-right">R$50,00</div>
+                        <div class="col-xs-6">TOTAL</div><div class="col-xs-6 text-right">R$329,60</div>
+                        <form action="pagamento.html">
+                            <input type="submit" value="FINALIZAR COMPRA">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <section class="footer">
+            <div class="container">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Sobre nós</h3>
+                    <div>
+                        <img class="logo" src="images/logo-footer.png">
+                    </div>
+                    <br>
+                    <span class="fa fa-map-marker"></span>
+                    Av. Lins de Vasconcelos, 1222 <br> Aclimação - São Paulo/SP
+                    <br><br>
+                    <span class="fa fa-phone"></span>
+                    (+55) 11 99999-9999
+                    <br><br>
+                    <span class="fa fa-envelope-o"></span>
+                    contato@todanama.com
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <a href="#"><li>Tipos de entrega</li></a>
+                        <a href="#"><li>Negócios corporativos</li></a>
+                        <a href="#"><li>Seguro roubo e furto</li></a>
+                        <a href="#"><li>Serviços de Entrega - Direct</li></a>
+                        <a href="#"><li>Garantia Estendida</li></a>
+                        <a href="#"><li>Vale Presente</li></a>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Newsletter</h3>
+                    <form>
+                        <label for="email">Digite seu e-mail e nós lhe enviaremos mais ofertas e conteúdos exclusivos.</label>
+                        <input class="newsletter" name="emailNewsletter name="quantidadeProduto"" placeholder="E-mail" required type="email">
+                        <input type="submit" value="Inscreva-se">
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Formas de pagamentos</h3>
+                    <img class="pagamentos" src="images/pagamentos.png">
+                </div>
+            </div>
+        </section>
+
+        <!-- RODAPÉ -->
+        <section class="rodape text-center">
+            <div class="container">
+                <h4>&copy; COPYRIGHT | TODANAMA | TODOS OS DIREITOS RESERVADOS</h4>
+            </div>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.js"></script>
+        <script src="js/base.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

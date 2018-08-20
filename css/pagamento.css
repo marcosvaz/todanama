@@ -1,0 +1,128 @@
+/* IMPORTS */
+@import url("template.css");
+
+/* DADOS USUÁRIO */
+.dadosUsuario {
+    margin-bottom: 10px;
+}
+.dadosUsuario, .dadosUsuario .topo-dadosUsuario, .dadosUsuario .baixo-dadosUsuario {
+    width: 100%;
+}
+.dadosUsuario .topo-dadosUsuario {
+    background-color: var(--amarelo);
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+.dadosUsuario .topo-dadosUsuario a {
+    padding: 10px;
+    text-decoration: underline;
+}
+.dadosUsuario .topo-dadosUsuario a:hover {
+    color: #000;
+}
+.dadosUsuario .baixo-dadosUsuario {
+    width: 100%;
+    margin: 0 15px;
+    border: 1px solid #888;
+    padding: 40px 10px 10px 10px;
+}
+.responsivo {
+    display: none;
+}
+
+@media(min-width: 992px){
+    .responsivo {
+        display: initial;
+    }
+}
+
+/* LISTAGEM DE PRODUTOS */
+.produtos {
+    width:100%;
+    text-align: left;
+}
+.produtos .descricaoProduto {
+    max-width: 200px;
+}
+.produtos .fa-close {
+    color: #D40000;
+    cursor: pointer;
+    font-size: 28px;
+    padding: 10px;
+}
+.produtos .imagemProduto img {
+    max-width: 100px;
+}
+.produtos-mobile {
+    display: none;
+}
+.produtos-mobile input {
+    width: 40px;
+}
+.produtos-mobile span {
+    background-color: var(--amarelo);
+    color: #FFF;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+.produtos .qntProduto, .produtos .qntProduto input {
+    max-width: 40px;
+}
+.produtos th {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 0;
+}
+.produtos td {
+    padding: 40px 0;
+    margin: 0 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.produtos-mobile .qnt input {
+    width: 40px;
+}
+/* IMAGENS DE PRODUTOS no responsivo */
+.produto figure {
+    height: auto;
+    margin-top: 10px;
+    max-width: 270px;
+    max-height: 370px;
+    width: auto;
+}
+.produto figure img {
+    max-width: 100%;
+}
+.descricao h2, h3, h4 {
+    display: inline-block;
+}
+.descricao h3, h4, small {
+    color: #666;
+}
+.descricao small {
+    font-size: 12px;
+}
+@media(max-width: 1200px) {
+    .produtos {
+        display: none;
+    }
+    .produtos-mobile {
+        display: inherit;
+        margin-top: 20px;
+    }
+}
+
+.formaDePagamento .container img {
+    margin: 10px 20px;
+}
+.formaDePagamento form {
+    margin: 20px 0;
+}
+.formaDePagamento form a {
+    text-decoration: underline;
+}
+.formaDePagamento input[type="submit"] {
+    background-color: var(--amarelo);
+    color: var(--azul);
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 20px;
+}

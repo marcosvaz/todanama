@@ -1,0 +1,63 @@
+/* IMPORTS */
+@import url("template.css");
+
+.checkout #check {
+    padding: 20px;
+    width: 100%;
+}
+
+.checkout .title {
+    margin-left: -15px;
+}
+.checkout .title h3 {
+    display: inline;
+    padding-right: 10px;
+}
+.checkout .title h2 {
+    color: #056839;
+    display: inline;
+}
+
+.checkout label {
+    display: block;
+}
+
+.checkout ul {
+    margin-left: -40px;
+}
+.checkout ul li {
+    list-style: none;
+    margin: 5px 0;
+}
+.checkout b {
+    font-weight: bolder;
+}
+
+#total {
+    display: inline;
+}
+#preco {
+    color: var(--amarelo);
+    display: inline;
+}
+
+.checkout c {
+    text-transform: uppercase;
+}
+.checkout button {
+    margin-top: 20px;
+    border: none;
+    font-weight: bolder;
+    padding: 10px;
+}
+.checkout .voltar {
+    background-color: var(--azul);
+    color: #FFF;
+}
+.checkout .comprando {
+    background-color: var(--amarelo);
+    color: var(--azul);
+}
+.checkout a:hover {
+    color: inherit;
+}

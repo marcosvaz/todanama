@@ -1,0 +1,61 @@
+/* FOOTER */
+.footer {
+    background-color: #131b2e;
+    color: #FFF;
+    margin-top: 40px;
+    padding: 90px 0;
+    font-weight: 100;
+    text-transform: initial;
+}
+.footer form {
+    color: #000;
+}
+.footer h3 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.footer input[type="email"]{
+    background-color: rgba(255,255,255,0.08);
+    border: none;
+    color: #666;
+    display: block;
+    margin: 18px 0;
+    padding: 15px;
+    width: 100%;
+}
+.footer input[type="submit"]{
+    background-color: var(--amarelo);
+    border-radius: 2.5px;
+    display: block;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+.footer label {
+
+    color: #666;
+    text-transform: initial;
+}
+.footer .logo {
+    height: auto;
+    max-width: 202px;
+    max-height: 45px;
+    width: auto; 
+}
+.footer .pagamentos {
+    display: block;
+    height: auto;
+    max-width: 200px;
+    max-height: 110px;
+    width: auto; 
+}
+.footer span {
+    padding-right: 5px;
+}
+.footer ul {
+    padding: 0;
+}
+.footer ul li {
+    list-style: none;
+    margin: 10px 0;
+}

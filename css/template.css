@@ -1,0 +1,130 @@
+/* IMPORTS */
+@import url("elementos/erro.css"); /* ERRO */
+@import url("elementos/topo.css"); /* TOPO */
+@import url("elementos/menu.css"); /* MENU */
+@import url("elementos/breadcrumbs.css"); /* BREADCRUMBS */
+
+@import url("elementos/footer.css"); /* FOOTER */
+@import url("elementos/rodape.css"); /* RODAPE */
+
+/* VARIÁVEIS */
+:root {
+    --amarelo: #f9c911;
+    --azul: #131b2e;
+    --vermelho: #D40000;
+}
+
+/* ALINHAMENTO */
+.align-right {
+    float: right;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+
+/* ESTILIZAÇÃO GLOBAL */
+a {
+    color: inherit;
+}
+a:hover {
+    color: var(--amarelo);
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a, a:focus, input {
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* FRETE */
+.calculoFrete {
+    background-color: var(--azul);
+    margin-top: 20px;
+    padding: 20px 0 20px 10px;
+    max-width: 320px;
+}
+.calculoFrete h3 {
+    color: var(--amarelo);
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+.calculoFrete label {
+    display: inline-block;
+    margin-top: 20px;
+}
+.calculoFrete input {
+    border: none;
+}
+.calculoFrete label {
+    color: #FFF;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+/* VALIDAÇÃO DE CAMPO */
+.no {
+    border: 2px solid var(--vermelho);
+}
+.yes {
+    border: 2px solid #35bd00;
+}
+
+/* FORMULÁRIOS */
+label {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+input, select {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+input[type="number"] {
+    display: initial;
+    margin-bottom: 0;
+    padding: 0;
+    max-width: 40px;
+}
+input[type="submit"]{    
+    border: none;
+    margin-top: 30px;
+    padding: 5px 20px;
+    font-weight: bolder;
+}
+
+/* PAGINAÇÃO */
+.pagination {
+    background-color: #eee;
+    color: #000;
+    display: inline;
+    padding: 5px 8px;
+}
+.meusPedidos .ativo, .categoria .ativo {
+    background-color: var(--azul);
+    color: #FFF;
+}
+.meusPedidos .trocar, .categoria .trocar {
+    background-color: var(--amarelo);
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* ESCONDER ELEMENTOS */
+.esconder {
+    display: none;
+}
